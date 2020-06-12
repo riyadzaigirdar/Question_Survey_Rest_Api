@@ -20,12 +20,16 @@ class QuestionAdminSerializer(serializers.ModelSerializer):
 
 
 class AnswerUserSerializer(serializers.ModelSerializer):
-    ques_title = serializers.ReadOnlyField()
-    candidiate_user = serializers.ReadOnlyField()
+    '''
+    ques = serializers.StringRelatedField()
+    candidiate = serializers.StringRelatedField()
+    '''
 
     class Meta:
         model = models.Answer
-        fields = '__all__'
+        fields = ['id', 'ques', 'candidiate', 'ans']
+        read_only_fields = ['id']
+        
         
     def create(self,validated_data):
         ans_obj = models.Answer.objects.create(**validated_data)
