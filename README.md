@@ -21,16 +21,17 @@ f. Use Token authentication
 Requierements:
 
 The endpoints should be:
-1. Create questions (/api/v1/question/ POST)
-2. Update questions (/api/v1/question/:id/ PUT)
-3. View list of questions (/api/v1/question/ GET)
-4. Answer to question (/api/v1/qanswer/ POST)
-5. View answer (/api/v1/qanswer/ GET)
+
+a. Create questions (/api/v1/question/ POST)
+b. Update questions (/api/v1/question/:id/ PUT)
+c. View list of questions (/api/v1/question/ GET)
+d. Answer to question (/api/v1/qanswer/ POST)
+e. View answer (/api/v1/qanswer/ GET)
 
 
 Use following Technology Stack:
 
-1. DRF latest version is must 
-2. Django ORM is must 
-3. Postgres is a plus 
-4. Docker is a plus
+a. DRF latest version is must 
+b. Django ORM is must 
+c. Postgres is a plus 
+d. Docker is a plus
