@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-print('ok')
+print('ok 1 2')
 answer_choices = (
     ('Yes', 'Yes'),
     ('No', 'No'),
