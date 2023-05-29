@@ -40,7 +40,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-print("ok")
+print("ok 2")
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
